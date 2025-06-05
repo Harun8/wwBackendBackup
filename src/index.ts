@@ -9,8 +9,8 @@ import ChatRoute from "./Route/ChatRoute";
 const port: number = 3000;
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Maps to the host machine's localhost
-  credentials: true, // Allow credentials (cookies, etc.) to be sent
+  origin: "*", // Allow all origins
+  credentials: true,
 };
 
 // app.use((req, res, next) => {
